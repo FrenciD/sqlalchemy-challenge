@@ -1,11 +1,11 @@
-#part 1: Analyze and Explore the Climate Date
+# part 1: Analyze and Explore the Climate Date
 In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, use SQLAlchemy ORM queries, Pandas, and Matplotlib.
 Use the SQLAlchemy create_engine() function to connect to your SQLite database.
 Use the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
 Link Python to the database by creating a SQLAlchemy session.
 Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
 
-#Precipitation Analysis
+# Precipitation Analysis
 Find the most recent date in the dataset.
 Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
 Select only the "date" and "prcp" values.
@@ -13,7 +13,7 @@ Load the query results into a Pandas DataFrame. Explicitly set the column names.
 Sort the DataFrame values by "date".
 Plot the results by using the DataFrame plot method
 
-#Part 2: Design Climate App
+# Part 2: Design Climate App
 /
 Start at the homepage.
 List all the available routes.
